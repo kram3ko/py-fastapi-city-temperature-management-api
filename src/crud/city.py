@@ -3,7 +3,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import joinedload, selectinload
 
-from src.config.setings import get_settings
+from src.config.settings import get_settings
 from src.models.city import CityModel
 from src.schemas.city import CityRequestSchema, CityTemperatureResponseSchema
 
